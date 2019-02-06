@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FoxLabs</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/layout.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header-layout">
+            <div class="content">
+                <a class="header-logo" href="/"></a>
+                <div class="header-title">
+                    <span>PROJECTS</span>
+                </div>
+            </div>
+            <div>
+            </div>
+        </header>
+
+        <div class="content main-content">
+            {{ content }}
+        </div>
+
+        <footer class="footer-layout">
+            Copyright &copy; 2011-{{ 'now' | date: "%Y" }} FoxLabs. All rights reserved.
+        </footer>
+    </div>
+</body>
+</html>
